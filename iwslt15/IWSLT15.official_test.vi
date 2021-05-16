@@ -1,0 +1,500 @@
+ Trí thông minh-- nó là gì vậy? 
+ Nếu chúng ta nhìn lại lịch sử xem trí thông minh được nhìn nhận thế nào, ta có thể tham khảo câu nói nổi tiếng của Edsger Dijsktra: "Hỏi rằng liệu máy có thể suy nghĩ được hay không cũng thú vị như hỏi liệu một chiếc tàu ngầm có bơi được hay không." 
+ Khi Edsger Dijstra viết câu này, ông viết như một lời chỉ trích những người đi tiên phong trong khoa điện toán, như Alan Turing. 
+ Tuy nhiên, nếu nhìn lại và nghĩ xem đâu là phát kiến có sức mạnh cho phép ta tạo nên chiếc máy có thể bơi, chiếc máy có thể bay, sẽ nhận ra rằng chỉ khi ta hiểu được về cơ chế của việc bơi và sự bay thì mới có thể làm ra những máy móc đó. 
+ Vì vậy, một vài năm trước, Tôi đã thực hiện một chương trình nghiên cứu cơ chế vật lý cơ bản làm nền tảng cho trí thông minh. 
+ Ta hãy lùi một bước. 
+ Bắt đầu một thí nghiệm về tư duy. 
+ Giả sử quý vị thuộc một chủng người ngoài hành tinh không biết gì về sinh học Trái đất, về khoa thần kinh, hay trí thông minh Trái Đât, nhưng có chiếc kính viễn vọng rất tuyệt giúp quan sát Trái Đất, và đời quý vị rất dài nên có thể quan sát hàng triệu, thậm chí hàng tỉ năm. 
+ Và thấy được một hiệu ứng kì lạ. 
+ quý vị sẽ thấy rằng, qua hàng thiên nhiên kỉ, trái đất đã liên tục va chạm với những thiên thạch cho đến một thời điểm tại đó, ứng những năm của chúng ta, khoảng 2000 năm sau CN thời điểm những thiên thạch đang bay theo hướng sắp va vào trái đất hẳn sẽ va vào trái Đất thì chợt bị làm chệch hướng hoặc nổ tung trước khi va. 
+ Tất nhiên, là một người Trái Đất, chúng ta hiểu lí do có thể do chúng ta cố bảo vệ chính mình. 
+ Chúng ta đang cố gắng ngăn chặn cuộc va chạm. 
+ Nhưng nếu quý vị là một người ngoài hành tinh không hiểu về chuyện này, không có bất kì khái niệm gì về trí thông minh Trái Đất, quý vị sẽ buộc phải tiếp nhận một giả thuyết vật lí giải thích cách sao vào thời điểm nào đó, những thiên thạch lẽ ra phá hủy bề mặt của một hành tinh lại dừng lại cách bí ẩn. 
+ Và tôi cho rằng đây cũng chính là nhu cầu tìm hiểu về bản chất vật lý của trí thông minh. 
+ Vì vậy trong chương trình này được thực hiện cách đây vài năm, Tôi đã xem xét nhiều vấn đề có tính liên nghành khoa học phối hợp nhiều khoa học khác nhau, và tôi thấy chúng đều chỉ ra một cơ chế chung duy nhất của sự thông minh. 
+ Lấy tất cả những tuyến đoạn khác nhau này gộp chúng lại với nhau, tôi tự hỏi từ nhiều năm về trước có một cơ chế nào cho trí thông minh làm thừa số chung cho những chuỗi khác nhau này? 
+ Có chăng một phương trình cho trí thông minh? 
+ Tôi tin, câu trả lời là Có. ["F = T ∇ Sτ"] Cái ta thấy đây có thể là cái tương đương gần nhất với một E = mc² một công thức cho trí thông minh mà tôi đã thấy. 
+ Cái ta thấy ở đây là một trình bày tương xứng cho thấy trí thông minh là một lực, F, hành động để tối đa hóa tự do hành động tương lai 
+ nó hành động để tối đa hóa tự do hành động tương lai, hoặc giữ cho các lựa chọn được để ngỏ, với một cường độ T, với sự đa dạng của các tương lai có thể đạt tới, S trong một ngưỡng thời gian tương lai nào đó, tau. 
+ Tóm lại, trí thông minh không thích bị mắc kẹt. 
+ Trí thông minh cố gắng tối đa hóa tự do hành động tương lai và giữ các lựa chọn để ngỏ. 
+ Như vậy, với phương trình này, câu hỏi tiếp theo là, ta dùng nó để làm gì? 
+ Nó dự báo được đến đâu? 
+ Nó có dự báo được sự thông minh ở tầm con người không? 
+ Nó có dự báo được trí thông minh của máy không? 
+ Tôi sẽ cho quý vị xem một video ta sẽ thấy những ứng dụng kỳ diệu của phương trình này. 
+ Điều gì xảy ra nếu mối liên hệ vũ trụ hiện thấy này giữa entropy và trí thông minh ẩn chứa một mối liên hệ sâu sắc hơn? 
+ Tôi nghĩ rằng tất cả chúng ta đều có những cái tủ riêng của mình. 
+ Khó khăn của bạn có thể là nói cho một ai đó biết rằng bạn yêu cô ấy ngay từ lần gặp mặt đầu tiên, hay bạn đang mang bầu, hay bạn mắc bệnh ung thư, hay bất kì những cuộc trò chuyện khó nói mà chúng ta đã từng có trong suốt đời mình. 
+ Mỗi trở ngại là một cuộc trò chuyện khó nói, và mặc dù chủ đề nói chuyện có thể trên trời dưới bể, thì trải nghiệm của việc đi vào hay bước ra cái tủ của bạn đều giống nhau. 
+ Nó rất đáng sợ. Tuy ghét nó, chúng ta vẫn cần phải làm vậy. 
+ Vài năm trước đây, khi còn làm việc tại quán cà phê South Side Walnut, một quán ăn rẻ tiền tại thị trấn, và trong suốt thời gian ở đó, tôi đã trải qua những giai đoạn phản đối gay gắt người đồng tính nữ không cạo lông nách, trích dẫn lời bài hát mà Ani DiFranco thể hiện như lời thánh ca. 
+ Vì chiếc quần soóc thô rộng thùng thình và cắt tóc thường xuyên, nên tôi thường nhận được câu hỏi từ những đứa bé: "Bác là con trai hay con gái vậy?" 
+ Khi đó không khí quanh bàn sẽ yên lặng một cách kì quặc. 
+ Tôi chỉ biết nghiến chặt răng, và nắm ấm cà phê trong tay mình chặt hơn. 
+ Bố của đứa trẻ thì lật tờ báo trong tay một cách kì quặc còn mẹ nó thì lườm nó. 
+ Nhưng tôi không nói gì cả, dù trong người đang sôi cả lên. 
+ Vậy nên tôi đã tự hứa với mình, lần sau, tôi sẽ nói với chúng điều gì đó. 
+ Đó là cuộc trò chuyện khó nói của tôi. 
+ Và vài tuần sau, nó lại tái diễn. 
+ "Bác là con trai hay con gái vậy?" 
+ Và cả lời của Gloria Steinem. 
+ Thậm chí cả một ít từ "Vagina Monologues". 
+ Rồi hít vào một hơi thật sâu, tôi nhìn xuống và đang nhìn trừng trừng vào tôi là một cô bé 4 tuổi đang mặc một chiếc váy hồng, đó không phải là một thử thách đối với một người đấu tranh cho bình đẳng phụ nữ mà chỉ là một câu hỏi của một đứa bé: "Bác là con trai hay con gái?" 
+ Vậy nên tôi hít một hơi thật sâu khác ngồi xổm xuống bên cạnh cô bé và đáp, "Ta biết trông ta dễ gây nhầm lẫn. 
+ Bởi tóc ta ngắn giống con trai, và ta mặc quần áo con trai, nhưng ta là con gái, và cũng giống như cháu đôi lúc thích mặc váy hồng, nhưng đôi khi lại mặc bộ quần áo ngủ thoải mái. 
+ Và ta là kiểu con gái thích mặc quần áo ngủ." 
+ Cô bé nhìn tôi như chết trân và đáp lại ngay lập tức, "Bộ quần áo ngủ yêu thích của cháu có màu tím và hình con cá. 
+ Cháu muốn gọi một chiếc bánh kếp." 
+ Cháu muốn gọi bánh kếp?" 
+ Đó là cuộc trò chuyện khó chịu dễ vượt qua nhất mà tôi từng có. 
+ Vì sao ư? Vì cô bé bánh kếp và tôi cả hai đều hiểu lẫn nhau. 
+ Giống như nhiều người trong chúng ta, tôi đã sống trong những chiếc tủ cả đời mình, và gần như mọi lúc, bốn bề chiếc tủ đều như cầu vồng. 
+ Nhưng bên trong lại tối đen, và bạn không thể biết được bốn mặt chiếc tủ có màu gì. 
+ Bạn sẽ biết cảm giác khi sống trong một chiếc tủ như thế nào. 
+ Nên thực tế là, chiếc tủ của tôi không khác gì mấy chiếc tủ của bạn của bạn này hay của bạn kia. 
+ Chắc chắn tôi có thể đưa ra cho bạn 100 lý do vì sao việc tôi bước ra chiếc tủ của mình lại khó hơn việc bạn bước ra chiếc tủ của bạn, nhưng đây mới là điều cần nói: khó khăn không phải mang tính tương đối. 
+ Mà khó là khó. 
+ Ai có thể nói với tôi rằng giải thích cho ai đó việc bạn vừa mới phá sản lại khó hơn việc nói với người khác rằng bạn vừa mới lừa dối họ? 
+ Ai có thể nói rằng câu chuyện mà mình sắp nói lại khó hơn so với việc nói với đứa con năm tuổi của bạn rằng bạn sắp ly hôn? 
+ Chẳng có câu chuyện nào khó nói hơn cả, chỉ có câu chuyện khó nói mà thôi. 
+ Chúng ta cần ngừng so sánh cái khó của mình với của người khác chỉ để khiến bản thân cảm thấy tốt hơn hay tệ hơn với chiếc tủ của mình hay chỉ để xót xa trước sự thật là tất cả chúng ta đều có cái khó của mình. 
+ Tại một thời điểm nào đó trong đời mình, chúng ta đều sống trong những chiếc tủ của mình, và có thể cảm thấy an toàn, hay ít nhất cũng an toàn hơn so với việc ở phía bên ngoài cánh tủ. 
+ Tôi làm phẫu thuật não 18 năm về trước từ đó, khoa học não bộ trở thành niềm đam mê của tôi. 
+ Thực ra, tôi là kỹ sư 
+ Có những nghi vấn xoay quanh vấn đề phẫu thuật não. 
+ Bạn có còn thông minh nữa không ? 
+ Nếu không, liệu bạn có thể minh mẫn trở lại ? 
+ Ngay sau cuộc phẫu thuật, tôi phải sử dụng hàng chục loại thuốc mỗi ngày, với liều lượng do tôi quyết định bởi nếu không uống thuốc, tôi sẽ chết trong vòng vài giờ, 
+ Và cũng mấy lần suýt chết, 
+ Nhưng may thay, vốn là kẻ thích thử nghiệm tôi quyết định thử nghiệm để tìm ra liều lượng tối ưu nhất bởi vì chưa có chỉ dẫn chi tiết nào cho việc này cả. 
+ Tôi bắt đầu thử pha trộn khác đi và thật kinh ngạc chỉ một thay đổi nhỏ về liều lượng cũng có thể thay đổi ghê gớm cảm nhận của tôi về bản thân, cách suy nghĩ và cách cư xử với người khác. 
+ Một trường hợp cụ thể là: Trong vài tháng tôi đã thử liều lượng và hóa chất điển hình dành cho một thanh niên chừng 20 tuổi và tôi sửng sốt trước sự thay đổi trong suy nghĩ của mình. 
+ Tôi thì thuộc dạng quá mức. 
+ Điều ngạc nhiên là tôi không hề cố tỏ ra kiêu ngạo. 
+ thay vào đó là cố gắng với một ít tự ti, để giải quyết vấn đề ngay trước mắt, dù rằng không được như ý muốn. 
+ Nhưng kinh nghiệm đó giúp tôi cảm thấy quý trọng đàn ông và những điều họ đã phải trải qua, và thân với đàn ông hơn kể từ đó. 
+ Mục đích của tôi khi điều chỉnh hormone và các chất dẫn truyền thần kinh đó là cố lấy lại sự minh mẫn sau bệnh tật và phẫu thuật, những ý tưởng sáng tạo, suy tưởng. 
+ Tôi suy nghĩ phần lớn bằng hình ảnh nên với tôi đó là thước đo thiết yếu -- làm sao để có những hình ảnh trong tâm trí để nhanh chóng khởi phát ý tưởng, Ý tưởng của tôi là thử nghiệm những ý tưởng mới đa chiều hình dung cảnh huống. 
+ Kiểu tư duy này không mới. 
+ Những triết gia như Hume, Descartes hay Hobbes cũng hình dung tương tự. 
+ Họ nghĩ rằng hình ảnh trong tâm trí và ý tưởng thực ra giống nhau. 
+ Ngày nay, người ta tranh cãi về điều này và có nhiều cuộc tranh luận về cách hoạt động của tâm trí , nhưng với tôi, đơn giản là: Hình ảnh trong tâm trí, là trung tâm của suy nghĩ đổi mới và sáng tạo. 
+ Sau nhiều năm, tôi đã có rất nhiều hình dung trong tâm trí tuyệt vời và tinh tế dựa trên cơ sở phân tích. 
+ Giờ đây, tôi đang nghiên cứu làm thế nào thể hiện những hình dung trong tâm trí này trên màn hình vi tính một cách nhanh hơn. 
+ Các bạn hình dung được không, một đạo diễn phim có thể dùng trí tưởng tượng của mình để đạo diễn cả thế giới trước mắt? 
+ Hoặc một nhạc sĩ có thể lấy những nốt nhạc ra khỏi đầu mình? 
+ Đây là phương cách cho phép những người sáng tạo nhanh chóng chia sẻ ý tưởng của mình. 
+ Tôi sẽ giải thích vì sao điều này là khả thi qua hai thí nghiệm gần đây được thực hiện bởi hai nhóm nghiên cứu khoa học thần kinh hàng đầu 
+ Cả hai dùng công nghệ fMRI "chụp cộng hưởng từ chức năng" để chụp não, Đây là bản scan não của Giogio Ganis và các đồng sự tại Harvard. 
+ Cột trái biểu thị một bản scan não của một người đang xem ảnh. 
+ Cột giữa biểu thị bản scan não của chính người đó khi hình dung chính bức hình vừa xem. 
+ Trong nhiều xã hội phụ hệ và mang tính bộ tộc, các ông bố thường được biết đến nhờ con trai mình, nhưng tôi là một trong số ít các ông bố những người được mọi người biết đến nhờ con gái của mình, và tôi tự hào về điều đó. 
+ Trước khi những điều đó xảy ra, nó là con gái tôi, nhưng bây giờ tôi được xưng là cha của con bé. 
+ Kính thưa Quý Bà và Quý ông Nếu chúng ta lướt qua lịch sử loài người, câu chuyện của phụ nữ là câu chuyện của bất công, bất bình đẳng, bạo lực và bóc lột. 
+ Con bé không được hoan nghênh, bởi cả cha lẫn mẹ nó. 
+ Những người láng giềng tìm đến và chia sẻ nỗi buồn với bà mẹ, và không một ai chúc mừng người cha. 
+ Và người mẹ cảm thấy rất khó chịu vì đã sinh ra một đứa bé gái. 
+ Khi hạ sinh đứa con gái đầu tiên, cô ấy buồn. 
+ Khi sinh đứa con gái thứ hai, cô ta bị sốc, và với kỳ vọng có được một đứa con trai, khi hạ sinh đứa con gái thứ ba, cô ta có cảm giác như một tội đồ. 
+ Không chỉ là các bà mẹ bị dằn vặt, mà cả đứa con gái, đứa con gái vừa được sinh ra, khi lớn lên, nó cũng sẽ bị dằn vặt như thế. 
+ Ở tuổi lênnăm, khi mà lẽ ra con bé được đi học, nó bị bắt ở nhà trong khi anh em trai mình được nhận vào trường. 
+ Cho đến khi tuổi 12, bằng cách nào đó, con bé có được một cuộc sống tốt. 
+ Nó có thể vui chơi. 
+ Nó có thể chơi với bạn bè mình trên đường phố, và có thể di chuyển xung quanh như một con bướm. 
+ Nhưng khi bước vào tuổi thiếu niên, Khi con bé lên 13, nó bị cấm ra khỏi nhà nếu không được hộ tống bởi một người đàn ông. 
+ Cô bé bị giam cầm bởi bốn bức tường. 
+ không còn có sự tự do cá nhân nữa. 
+ Con bé trở thành một thứ danh dự của cha, anh em và của gia đình cô, và nếu nó vượt qua quy tắc của cái được gọi là danh dự đó, nó thậm chí có thể bị giết chết. 
+ Và cũng thật thú vị khi mà cái được gọi là danh dự này, không chỉ ảnh hưởng đến cuộc sống của cô bé, mà còn đến cuộc sống của các nam giới trong gia đình. 
+ Tôi biết một gia đình có bảy chị em gái và một cậu con trai, và cậu con trai đó, đã phải di dân đến các nước vùng Vịnh, để kiếm sống nuôi bảy chị em mình và cha mẹ, bởi vì anh ta nghĩ rằng sẽ rất nhục nhã nếu bảy chị em của anh ta học lấy một nghề và đi ra khỏi nhà kiếm lấy một kế sinh nhai. 
+ Vì vậy cậu trai này, anh ta hy sinh niềm vui sống của bản thân và hạnh phúc của chị em anh ta trên bàn thờ tôn thờ thứ danh dự đấy. 
+ Và có một luật lệ nữa trong những xã hội phụ hệ được gọi là sự vâng lời. 
+ Một cô gái tốt có nghĩa vụ phải rất yên lặng, rất khiêm tốn và rất phục tùng. 
+ Đó là các tiêu chuẩn. 
+ Mẫu cô gái tốt là phải rất im lặng. 
+ Cô ta có nghĩa vụ phải im lặng và chấp nhận các quyết định của cha và mẹ và các quyết định của trưởng lão, ngay cả khi cô ta không thích chúng. 
+ Nếu không, cô sẽ bị gọi là ngỗ ngược. 
+ Và những gì cuối cùng sẽ xảy ra? 
+ Theo lời của một nhà thơ nữa, cô ta bị ép gả và sau đó sinh thêm con trai và con gái. 
+ Và vòng luẩn quẩn này cứ thế tiếp tục 
+ Kính thưa Quý Bà và Quý ông cảnh ngộ nghiệt ngã mà hàng triệu phụ nữ gặp phải này có thể được thay đổi Nếu chúng ta suy nghĩ khác đi, Nếu phụ nữ và nam giới suy nghĩ khác đi, Nếu đàn ông và phụ nữ trong xã hội phụ hệ và mang tính bộ lạc ở các nước đang phát triển, nếu họ có thể phá vỡ luật lệ về gia đình và xã hội, nếu họ có thể bãi bỏ luật phân biệt đối xử trong hệ thống xã hội của mình, những thứ mà đi ngược lại các nhân quyền cơ bản của phụ nữ. 
+ Anh chị em thân mến, khi Malala được sinh ra, lần đầu tiên, Tin tôi đi Tôi không thích trẻ sơ sinh, thẳng thắn mà nói nhưng khi tôi nhìn vào đôi mắt con bé, Tin tôi đi Tôi cảm thấy rất vinh dự. 
+ Và rất lâu trước khi nó được sinh ra, Tôi đã nghĩ về một cái tên cho con bé, và tôi đã thích thú với một anh hùng huyền thoại và tự do tại Afghanistan. 
+ Tên cô ấy là Malalai Maiwand, và tôi đặt tên con gái tôi theo nhân vật này. 
+ Một vài ngày sau khi Malala chào đời, con gái tôi được sinh ra, người anh em họ của tôi đến thăm-- và đó là một sự trùng hợp -- anh ta đã đến nhà của tôi và mang theo một cây phả hệ, một cây phả hệ của gia đình Yousafzai, và khi tôi nhìn vào cái cây này, nó truy ngược trở lại tổ tiên 300 năm về trước của chúng tôi. 
+ Nhưng khi nhìn vào đó, tất cả đều là đàn ông, và tôi đã lấy cây bút của mình, vẽ một đường từ tên của tôi, và viết, "Malala." 
+ Thế giới mặc định con người của bạn nhưng bạn mới là người hiểu rõ nhất bản thân mình và câu hỏi đó luôn thôi thúc trong tim : Bạn sẽ trở thành như thế nào? 
+ Tôi có thể là người duy nhất như thế, nhưng tôi không đơn độc, hoàn toàn không đơn độc. 
+ Khi trở thành một người mẫu thời trang, tôi nghĩ là tôi đã đạt giấc mơ của mình giấc mơ của tôi từ khi còn là một đứa trẻ. 
+ Vẻ ngoài của tôi cuối cùng cũng đã trở về đúng với con người bên trong. 
+ Vì vài lý do, tôi sẽ trở lại vấn đề này sau, khi xem bức ảnh này, tôi nghĩ rằng, "Geena, mày làm được rồi đấy" mày đã làm được mày đã đạt được ước mơ rồi đấy". 
+ Nhưng tháng 10 vừa rồi, tôi nhận ra đó chỉ mới là khởi đầu. 
+ Tất cả chúng ta được đặt trong những chiếc hộp có tên gia đình, tín ngưỡng, xã hội, quá khứ, hay chính cơ thể của mình. 
+ Vài người trong chúng ta đủ dũng cảm để thoát khỏi sự ràng buộc, vượt qua giới hạn của màu da hay đức tin của những người xung quanh. 
+ Những con người ấy luôn thách thức những giá trị cố hữu, những cái mà người ta cho là có thể chấp nhận. 
+ Trường hợp của tôi, 9 năm trước, vài người hàng xóm, vài người bạn, đồng nghiệp, thậm chí công ty quản lý, không biết về quá khứ của tôi. 
+ Tôi vẫn còn nhớ khi lên 5 tôi đi quanh nhà ở Philippines, đội áo thun lên đầu. 
+ Và mẹ tôi hỏi, "Sao lúc nào con cũng đội áo lên đầu thế?" 
+ Tôi trả lời: "Mẹ à, đây là tóc của con. Con là con gái." 
+ Lúc ấy, tôi đã biết mình là ai. 
+ Giới tính luôn được coi là một sự thật, không thể thay đổi được, nhưng ngày nay, ta biết rằng, nó đã trở nên linh động, phức tạp và bí ẩn hơn. 
+ Trước những thành công của bản thân, tôi chưa bao giờ đủ dũng cảm kể câu chuyện của mình, không phải bởi vì tôi đã sai, nhưng bởi vì cách mà thế giới xung quanh đối xử với những người muốn thoát khỏi sự ràng buộc. 
+ Mỗi ngày, tôi cảm thấy hạnh phúc vì được là phụ nữ. 
+ Tôi có cha, mẹ và gia đình những người chấp nhận con người thật của tôi. 
+ Nhiều người không may mắn như thế 
+ Có những truyền thống lâu đời trong nền văn hóa châu Á cổ vũ cho những bí ẩn hay biến đổi của giới tính. 
+ Một Bồ tát từ bi. 
+ Một nữ thần Hindu, nữ thần hijra 
+ Khi tôi lên 8, Tôi tham dự một lễ hội ở Philippines tôn vinh những điều huyền bí. 
+ Tôi ở trên sân khấu, và một người phụ nữ xinh đẹp bước đến trước mặt tôi, vào cái khoảnh khắc ấy, có cái gì đó trỗi dậy trong tôi : Tôi muốn trở thành một phụ nữ như thế. 
+ Khi 15 tuổi, tôi vẫn ăn mặc như một đứa con trai. Tôi gặp một phụ nữ tên T.L. Cô ấy là quản lý 
+ của một cuộc thi sắc đẹp dành cho người chuyển đổi giới tính. 
+ Đêm đó, cô ấy hỏi tôi, "Sao em không tham gia cuộc thi này?" 
+ Khoảnh khắc đó đã thay đổi cuộc đời tôi. 
+ Tôi được giới thiệu đến thế giới của những cuộc thi sắc đẹp. 
+ Sẽ không có nhiều người nói với bạn rằng công việc đầu tiên của họ là hoa hậu của người chuyển đổi giới tính, nhưng tôi đã làm điều đó. 
+ Cho nên, từ 15 đến 17 tuổi, tôi tham gia từ những cuộc thi uy tín nhất đến những cuộc thi ở thùng xe tải, theo đúng nghĩa đen hay đôi khi là ở lề đường cạnh đồng lúa, và ở Philippines, khi trời mưa mưa rất nhiều, những người tổ chức phải di chuyển vào trong nhà của ai đó. 
+ Tôi mới nghỉ hưu gần đây từ Đội tuần tra xa lộ California sau 23 năm công tác. 
+ Công việc chính suốt 23 năm ấy là tuần tra khu vực mũi phía Nam của Hạt Marin, bao gồm cả Cầu Cổng Vàng. 
+ Cây cầu là một biểu tượng kiến trúc được cả thế giới biết đến ta thấy San Francisco, Thái Bình Dương, kiến trúc đầy cảm hứng. 
+ Đáng buồn thay, công trình này có sức hút với những vụ tự sát là một trong những "bãi tự sát" nổi tiếng thế giới 
+ Cầu Cổng Vàng hoàn thành vào năm 1937. 
+ Joseph Strauss, kỹ sư trưởng của Cầu Cổng Vàng đã tuyên bố như sau: "Thực tế, cây cầu là để ngăn các vụ tự sát 
+ Việc tự vẫn trên cầu là không thực tế cũng như khó có thể xảy ra." 
+ Tuy nhiên, từ khi đi vào hoạt động có hơn 1600 người tìm đến cái chết. tại cây cầu này, 
+ Một số người tin rằng việc đi dạo giữa hai tháp cầu sẽ dẫn tới một chiều không gian khác. Cây cầu đã được thi vị hóa tới mức — chỉ việc ngã khỏi cầu bạn sẽ thoát mọi lo âu phiền muộn, làn nước dưới chân cầu sẽ rửa sạch làu tâm hồn bạn. 
+ Nhưng để tôi nói bạn hay thực chuyện gì đã xảy ra khi người ta dùng cây cầu như một phương tiện để tự kết liễu đời mình. 
+ Va chạm ấy làm gãy các xương, các xương ấy đâm vào các cơ quan nội tạng. 
+ Đa số đều chết do va chạm. 
+ Những trường hợp khác vô vọng quẫy đạp trong làn nước rồi cũng chìm dần. 
+ Tôi không cho rằng những người định tự vẫn bằng phương thức này hiểu được cái chết ghê sợ mà họ phải đối mặt. 
+ Mấu chốt nằm ở đây. 
+ Ngoài xung quanh hai tháp cầu ra có một dãy những ống thép dài gần 1m chạy song song bên thành cầu. 
+ Đây là vị trí những người tự sát đứng trước khi rời bỏ cuộc sống của mình. 
+ Tôi nói với bạn, theo tôi Khi một người đứng trên chỗ đó trong thời khắc u tối nhất cuộc đời, thì rất khó thuyết phục họ quay đầu. 
+ Tôi chụp bức ảnh này năm ngoái người phụ nữ nói với một nhân viên và ngẫm nghĩ về đời mình. 
+ Tôi rất vui được nói với bạn rằng ngày đó chúng tôi đã thành công khi thuyết phục được cô ấy quay lại. 
+ Khi tôi mới làm việc tại đây, tôi không hề được huấn luyện bài bản. 
+ Bạn vật lộn làm công việc của mình. 
+ Đây không chỉ là điều tai hại với những ai có ý định tự vẫn, mà còn với những nhân viên như tôi. 
+ Đến nay, tôi đã đi một đoạn đường dài. 
+ Giờ những nhân viên kỳ cựu và nhà tâm lý sẽ huấn luyện nhân viên mới. 
+ Đây là Jason Garber. 
+ Tôi gặp Jason ngày 22/7 năm ngoái tôi nhận một cuộc gọi báo có một người nghi là muốn tự sát. đang ngồi trên lan can giữa cầu. 
+ Tôi trả lời, và khi tôi đến, tôi quan sát Jason đang nói chuyện với một nhân viên của Cầu Cổng Vàng. 
+ Jason chỉ mới 32 tuổi và anh ta bay đến đây từ New Jersey. 
+ Sau khi trò chuyện khoảng 1 tiếng đồng hồ, anh ta hỏi chúng tôi có biết câu chuyện "Chiếc hộp của Pandora" 
+ Trong thần thoại Hy Lạp, thần Zeus tạo ra Pandora và gửi cô ta xuống Trái Đất cùng 1 chiếc hộp bảo cô rằng: "Đừng bao giờ mở hộp ra." 
+ Ngày nọ, Pandora không cưỡng đươc tò mò đã mở chiếc hộp ấy. 
+ Từ chiếc hộp bay ra đủ bệnh dịch, đau khổ, và những thứ xấu xa, tai ương. 
+ Điều tốt đẹp duy nhất trong hộp chính là "Hy vọng". 
+ Sau đó, Jason hỏi chúng tôi: "Sẽ thế nào khi anh mở hộp ra và hy vọng không có ở đó?" 
+ Anh ta im lặng trong giây lát, nghiêng người về bên phải và ra đi. 
+ Người thanh niên tốt bụng, thông minh từ New Jersey đã tự vẫn như thế. 
+ Đêm đó, tôi nói chuyện với ba mẹ của Jason. Tôi cho rằng khi trò chuyện với họ, nghe như tôi không ổn lắm, vì ngay ngày hôm sau, thầy giảng đạo của gia đình gọi xem tôi có sao không. 
+ Ba mẹ của Jason nhờ ông ta làm việc đó. 
+ Hệ lụy từ một vụ tự sát ảnh hưởng đến rất nhiều người. 
+ Tôi muốn đặt một vài câu hỏi thế này: Bạn sẽ làm gì nếu người thân, bạn bè hay người bạn yêu tự sát? 
+ Bạn sẽ nói gì? 
+ Bạn biết mình cần phải nói gì không? 
+ Kinh nghiệm cho hay rằng, không phải "trò chuyện" mới giải quyết vấn đề mà chính là lắng nghe. 
+ Nghe để thấu hiểu. 
+ Đừng tranh cãi, trách móc, hay bảo người đó bạn biết họ cảm thấy thế nào, bởi vì có thể chính bạn cũng không rõ. 
+ Sự có mặt của bạn lúc ấy, có thể chính là bước ngoặt họ cần có trong đời. 
+ Nếu bạn nghĩ ai đó đang cố tự vẫn, đừng ngại đối diện và hãy hỏi họ. 
+ Một cách đặt câu hỏi cho họ là: "Những người khác trong hoàn cảnh tương tự đều nghĩ sẽ kết thúc đời mình; anh từng có suy nghĩ ấy chưa?" 
+ Nếu dám đối diện với họ, có thể bạn cứu sống họ và thay đổi cuộc đời họ. 
+ Tương tác thực tế và bóng đá chuyên nghiệp có liên hệ gì với sự đồng cảm? 
+ Và vận tốc trong không khí của một con én không tải là gì? 
+ Không may là hôm nay, tôi sẽ chỉ trả lời một trong số chúng, vì vậy, cố gắng đừng thất vọng nhé. 
+ Hầu hết mọi người khi nghĩ về AR, đều nghĩ về phim Minority Report và Tom Cruice vẫy tay trong không khí, nhưng AR không phải là khoa học viễn tưởng. 
+ nó là thứ gì đó sẽ xảy ra bởi vì chúng ta có công cụ để biến nó thành hiện thực, mọi người cần phải biết điều đó, AR sẽ làm thay đổi cuộc sống của chúng ta như Internet và điện thoại di động đã từng. 
+ Làm thế nào để có được AR? 
+ Bước đầu tiên thứ mà tôi đang đeo, Google Glass - GG. 
+ Rất nhiều người trong ở đây đã quen thuộc với GG. 
+ Cái mà có lẽ ít người biết là GG là một thiết bị cho phép bạn nhìn thấy thứ mà tôi nhìn thấy. 
+ Tôi sẽ để bạn trải nghiệm cảm giác của một vận động viên chuyên nghiệp trên sân. 
+ Cách duy nhất để bạn có thể ở đó là lắng nghe mô tả của tôi. 
+ Tôi phải dùng từ ngữ, 
+ tạo ra khuôn nền để bạn lấp đầy bằng trí tưởng tượng của mình. 
+ Với GG, chúng ta có thể đặt nó dưới mũ bảo hiểm, và có cảm giác giống như chạy dưới sân 100 mét /giờ, máu dộng thình thịch trong tai. 
+ Bạn cảm thấy như là có một người đàn ông nặng hơn trăm kí chạy ào về phía mình cố nghiền nát bạn bằng cân nặng của anh ta. 
+ Tôi đã nhận cái kết đó, cảm giác không hay ho gì. 
+ Hãy kiểm tra một vài đoạn phim. 
+ Đi 
+ Ugh, bị cản phá thì thật là tồi tệ. 
+ Từ từ, đến gần hơn. 
+ Được chứ, sẵn sàng? 
+ Đi! 
+ Có lẽ, bạn sẽ để ý đến những người vắng mặt: thành viên còn lại của đội bóng. 
+ Chúng tôi có vài đoạn phim nhờ sự giúp đỡ của Đại học Washington. 
+ Tiền vệ: Này, Mice 54! Mice 54! 
+ Blue 8! Blue 8! Đi! 
+ Oh! 
+ Người hâm mộ muốn trải nghiệm đó. 
+ Họ muốn ở trên sân, 
+ muốn là cầu thủ yêu thích của mình, và họ đã nói chuyện với tôi trên Youtube, Twitter: "Anh có thể để nó vào chỗ cầu thủ chuyền bóng hay ôm bóng về không? 
+ Chúng tôi đã trải nghiệm nó với GoPro và GG, Làm sao để nhập vai hơn ? Bước kế tiếp thế nào? 
+ Chúng tôi làm bước kế tiếp 
+ Oculus Rift được mô tả là một trong những thiết bị thực tế ảo thực tế nhất từng được tạo ra, không thổi phồng đâu nhé. 
+ Tôi sẽ cho bạn thấy tại sao tôi lại nói vậy bằng đoạn phim này. 
+ Người đàn ông: Oh! Oh! 
+ Không! Không! Không! Tôi không muốn chơi nữa! Không! 
+ Trời ơi! Aaaa! 
+ Và đó là trải nghiệm trên tàu lượn siêu tốc cùng với nỗi sợ hãi của đời mình. 
+ Họ sẽ thấy thế nào khi lao xuống sườn núi với vận tốc hơn 100 km/ giờ như là một vận động viên Olympic 
+ Doanh số bán tã lót cho người lớn có thể tăng. 
+ Nhưng đây chưa phải là AR. 
+ Chỉ là hiện thực ảo . 
+ Làm sao có được AR? 
+ Chúng ta có AR khi các huấn luyện viên, nhà quản lý và chủ sở hữu nhìn vào thông tin truyền tải trực tiếp thứ mà ta muốn thấy, và nói: "Sử dụng cái này thế nào để ta có thể trở nên tốt hơn? 
+ Làm sao dùng cái này để chiến thắng ?" 
+ Tôi sinh ra trong một thị trấn bé xíu ở bang Victoria. 
+ Tôi lớn lên trong điều kiện nuôi dạy bình thường. 
+ Tôi đi học, chơi với bạn bè, cãi cọ với các em gái. 
+ Tất cả đều rất đỗi bình thường. 
+ Khi tôi lên 15, công chức địa phương đến gặp cha mẹ tôi và bày tỏ ý muốn đề cử tôi nhận giải thành tựu vì cộng đồng. 
+ Cha mẹ tôi nói rằng: "Hm, thật tuyệt làm sao, nhưng có một thực tế rõ ràng, 
+ rằng con bé chẳng có thành tựu nào cả. Họ nói đúng, bạn biết đấy. 
+ Tôi tới trường, đạt điểm tốt, tôi có công việc bình thường sau giờ học, tại tiệm làm tóc của mẹ tôi, tôi dành nhiều thời gian xem phim "Buffy the Vampire Slayer" và "Dawson's Creek." 
+ Vâng, tôi biết. Thật là ngược ngạo. 
+ Nhưng họ nói đúng. 
+ Nhiều năm sau, tôi đi dạy tại một trường trung học ở Melbourne khi dạy được khoảng 20 phút về nghiên cứu pháp luật một cậu nhỏ giơ tay: "Cô ơi, khi nào thì cô phát biểu?" 
+ "Bài phát biểu nào vậy?", tôi hỏi. 
+ Tôi đã nói với chúng về luật chống phỉ báng được khoảng 20 phút. 
+ Thằng bé trả lời: "Đại loại là bài nói chuyện truyền cảm hứng. 
+ Khi ai đó ngồi xe lăn đến trường, họ thường nói những thứ truyền cảm hứng?" 
+ "Thường là ở trong hội trường lớn" 
+ Đó là lúc tôi nhận ra: Những đứa trẻ chỉ biết rằng những người tàn tật là những đối tượng truyền cảm hứng. 
+ Với đứa trẻ này, không phải lỗi của nó, điều này đúng với nhiều người. 
+ Với nhiều người chúng ta, người tàn tật không phải giáo viên hay bác sĩ hay thợ làm móng. 
+ Chúng tôi không phải người thật.- mà là người để truyền cảm hứng. 
+ Thực tế là, việc tôi đứng trên sân khấu này trên chiếc xe lăn này, bạn chắc hẳn cũng mong tôi sẽ truyền cảm hứng cho bạn. Phải không? Yeah. 
+ Vâng, thưa quý ông quý bà, tôi e rằng tôi sẽ làm mọi người tổn thương trầm trọng. 
+ Tôi không ở đây để truyền cảm hứng. 
+ Tôi ở đây để nói với bạn rằng ta đã bị lừa về sự tàn tật. 
+ Đó không phải là điều xấu, và nó không biến bạn thành cá biệt, 
+ Vài năm gần đây, ta đã có thể truyền bá sự lừa dối này thậm chí là còn xa hơn thông qua phương tiện truyền thông đại chúng. 
+ Bạn có thể đã thấy những thứ thế này: Khiếm khuyết duy nhất trong cuộc sống 
+ là một thái độ tồi." Hoặc: "Sự biện minh của bạn 
+ không có giá trị." Thật vậy. Hay "Trước khi từ bỏ, hãy cố gắng!" 
+ Đây chỉ là một vài ví dụ, có rất nhiều hình tương tự ngoài kia. 
+ Bạn có thể thấy một bé gái không có tay vẽ một bức tranh với cây bút chì trên miệng. 
+ Bạn có thể thấy một đứa trẻ chạy trên đôi chân giả bằng sợi carbon. 
+ Những hình ảnh này, rất nhiều ngoài kia, chúng tôi gọi là "phim heo" truyền cảm hứng. 
+ Tôi sử dụng từ "phim heo" một cách có chủ ý, bởi vì họ sử dụng một nhóm người cho lợi ích của một nhóm khác. 
+ Trong trường hợp này, họ dùng người tàn tật cho lợi ích của nhóm người không tàn tật. 
+ Mục đích của những hình này là để truyền cảm hứng, khuyến khích bạn từ đó, ta có thể nhìn vào họ và nghĩ: "Vâng, dù cuộc sống của tôi có tệ thế nào, nó có thể đã tệ hơn. 
+ Vào ngày 05/11/1990, một người đàn ông tên El-Sayyid Nosair bước vào một khách sạn ở Manhattan và sát hại Rabbi Meir Kahane, thủ lĩnh Liên minh Phòng Thủ người Hồi Giáo. 
+ Ban đầu Nosair được cho là vô tội, nhưng trong thời gian thụ án một tội danh nhỏ hơn, hắn và đồng bọn bắt đầu lên kế hoạch tấn công một loạt các công trình quan trọng ở New York, bao gồm đường hầm, toà nhà giáo hội Hồi Giáo và trụ sở chính Liên Hợp Quốc. 
+ May thay, kế hoạch đó bị phanh phui nhờ một người đưa tin của FBI. 
+ Chỉ tiếc rằng, kế hoạch đánh bom năm 1993 vào Trung Tâm Thương Mại Thế giới lại không bị phát hiện. 
+ Tôi sinh ra ở Pittsburgh, bang Pennsylvania năm 1983 bởi ông, một kĩ sư người Ai Cập và người mẹ yêu dấu là giáo viên tiểu học người Mỹ. Họ đã cố gắng cho tôi một tuổi thơ tốt đẹp nhất. 
+ Mọi thứ thay đổi khi tôi lên 7, mối quan hệ trong gia đình bắt đầu thay đổi. 
+ Cha cho tôi tiếp xúc với một bộ mặt của người Hồi Giáo, mà rất ít người biết đến. Kinh nghiệm của tôi cho thấy 
+ Tuy nhiên, ở mỗi một tôn giáo, mỗi một dân tộc, bạn sẽ thấy có một cơ số nhỏ những người có đức tin mãnh liệt đến nỗi họ thấy rằng cần phải dùng mọi cách để khiến người khác cũng sống như họ. 
+ Chúng tôi đến bãi tập bắn Calverton, không ai trong chúng tôi biết rằng mình đang bị FBI theo dõi. 
+ Hôm đó, viên đạn cuối cùng mà tôi bắn đã trúng chiếc đèn màu cam nằm trên đỉnh mục tiêu và trong sự kinh ngạc của mọi người, đặc biệt là của tôi mục tiêu nổ tung. 
+ Bọn họ cười vang trước lời nhận xét đó, nhưng phải đến vài năm sau tôi mới hiểu hết ý nghĩa của tràng cười đó. 
+ Họ nghĩ họ thấy ở tôi sự phá hủy tương tự như ở cha tôi. 
+ Những người đó cuối cùng cũng bị kết án vì đã đặt một xe tải chở gần 700kg thuốc nổ ở tầng trệt bãi đỗ xe tòa tháp Bắc trung tâm thương mại thế giới, gây nên vụ nổ giết chết 6 người và làm hơn 1000 người khác bị thương. 
+ Đây là những người mà tôi kính trọng, 
+ những người tôi gọi là "ammu", nghĩa là chú. 
+ Vào năm lên 19, tôi đã chuyển nhà được 20 lần trong đời, chính vì sự bất ổn suốt thời thơ ấu đó tôi đã không có nhiều cơ hội để kết bạn. 
+ Khi bắt đầu kết thân được với ai đó cũng là lúc tôi gói ghém đồ đạc và chuyển đến nơi khác. 
+ Vì luôn là học sinh mới trong lớp, tôi thường xuyên bị bắt nạt. 
+ Thế nên hầu hết thời gian, tôi ở nhà, đọc sách, xem TV hoặc chơi điện tử. 
+ Vì những lí do đó, tôi thiếu đi những kĩ năng xã hội, nói một cách nhẹ nhàng, lớn lên trong một gia đình có đức tin mù quáng, thế giới thực dường như không dành cho tôi. 
+ Ngay lúc này Một bộ phim đang phát ngay trong đầu các bạn. 
+ Đó là một bộ phim nhiều phần tuyệt vời 
+ Nó có hình ảnh 3D và âm thanh nổi cho những thứ mà các bạn đang nhìn và nghe thấy ngay lúc này, nhưng đó mới chỉ là bắt đầu. 
+ Bộ phim đó có cả mùi, vị và xúc giác. 
+ Nó có cảm giác của cơ thể, đau đớn, đói khát, khoái cảm. 
+ Nó có những cảm xúc. giận dữ và hạnh phúc. 
+ Nó có những ký ức, giống như những kỷ niệm thời thơ ấu đang phát trước mắt bạn. 
+ Và nó có những giọng nói liên tục thuyết minh trực tiếp trong dòng suy nghĩ của các bạn. 
+ Trung tâm của bộ phim chính là bạn. đang trực tiếp trải qua tất cả những thứ đó. 
+ Bộ phim này là dòng ý thức của các bạn là đối tượng của trải nghiệm tâm trí và cả thế giới, 
+ Ý thức là một trong những bằng chứng cơ bản nhất về sự tồn tại của con người. 
+ ai cũng có nhận thức 
+ Chúng ta đều có bộ phim của riêng mình, bạn, bạn và cả bạn. 
+ chúng ta không biết gì khác trực tiếp hơn 
+ Ít nhất, tôi biết ý thức của bản thân một cách trực tiếp 
+ Tôi không thể chắc chắn rằng các bạn ý thức được 
+ Nhận thức cũng là cái làm cho cuộc sống đáng sống. 
+ Nếu chúng ta không có nhận thức, mọi thứ trong cuộc sông trở nên vô nghĩa và vô giá trị 
+ Nhưng đồng thời, chính nhận thức là hiện tượng bí ẩn nhất trong vũ trụ 
+ Tại chúng ta không đơn giản chỉ là những robot những thứ có thể xử lý tất cả những dữ kiện và đưa ra các phản ứng, mà không trải nghiệm bộ phim bên trong đó? 
+ Hiện nay, chưa có ai biết câu trả lời cho những câu hỏi trên. 
+ Tôi cho rằng để đưa nhận thức vào nghiên cứu, sẽ cần có nhiều ý tưởng cấp tiến mới. 
+ Có người nói rằng nghiên cứu về nhận thức là bất khả thi. 
+ bởi vì, bản thân khoa học là sự khách quan. 
+ còn nhận thức, bản chất là sự chủ quan. 
+ Do đó không bao giờ có một môn khoa học của nhận thức. 
+ Quan điểm đó thống trị suốt thế kỷ 20 
+ Các nhà tâm lý học nghiên cứu hành vi một cách khách quan, các nhà thần kinh học nghiên cứu não bộ cũng vậy. và không một ai nhắc gì tới nhận thức. 
+ Thậm chí 30 năm trước, khi TED bắt đầu, có rất ít nghiên cứu khoa học về nhận thức. 
+ Bây giờ, khoảng 20 về năm trước, Mọi thứ bắt đầu thay đổi. 
+ Các nhà thần kinh học như Francis Crick và các nhà vật lý như Roger Penrose nói rằng bây giờ là thời điểm để cho khoa học tấn công vào nhận thức. 
+ Kể từ đó, đã có một sự bùng nổ thật sự, nở rộ các công trình khao học trong lĩnh vực này. 
+ Các công trình này thật tuyệt vời. thật sự rất tuyệt. 
+ Tuy nhiên, cho đến nay vẫn còn những giới hạn cơ bản 
+ Chúng ta đã thấy được nghiên cứu này của Nancy Kanwisher, chúng thật tuyệt vời cô ấy mời thuyết trình cách đây ít phút. 
+ Hiện nay, chúng ta có một hiểu biết tốt hơn, ví dụ, Những vùng của não bộ liên quan tới trải nghiệm ý thức về nhận ra các gương mặt hay cảm giác đau, hoặc cảm giác hạnh phúc. 
+ Nhưng đây mới chỉ là khoa học về các mối tương quan 
+ Nó không phải là khoa học giải thích. 
+ Chúng ta biết rằng những vùng não bộ nào liên quan tới trải nghiệm nhận thức nào, nhưng chúng ta không biết tại sao lại như vậy. 
+ Tôi muốn đưa điều này bằng cách nói rằng các công trình trong lĩnh vực thần kinh học đang trả lời một số câu hỏi mà chúng ta muốn biết về nhận thức, những thắc mắc về các vùng của bộ não, chúng làm gì và chúng liên hệ với cái gì. 
+ Tuy nhiên, theo một nghĩa nào đó, đó là những câu hỏi dễ dàng. 
+ Không liên quan tới các nhà thần kinh học. 
+ Thực sự, không có câu hỏi nào là dễ dàng với nhận thức. 
+ Nhưng nó không giải quyết được bí ẩn thực sự ở cốt lõi của vấn đề. Tại sao tất cả các quá trình vật lý xảy ra trong não bộ lại đi kèm với nhận thức? 
+ Tại sao lại có bộ phim bên trong đó? 
+ Hiện nay, chúng ta thực sự không có manh mối nào. 
+ Và các bạn có thể nói rằng, hãy cho các nhà thần kinh học thêm vài năm nữa. 
+ Nhưng hóa ra đó lại là một hiện tượng tự phát khác như những vụ kẹt xe, những cơn bão, hay như cuộc sống vậy, và chúng ta sẽ đi tìm hiểu nó. 
+ Những trường hợp điển hình về sự tự phát là mọi hành vi tự phát, Một vụ tắc đường diễn biến thế nào cách mà một cơn bão hoạt động, một sinh vật sống sinh sôi thích nghi và trao đổi chất ra sao, tăt cả câu hỏi về hoạt động khách quan. 
+ Chúng ta có thể áp dụng cho não người trong việc giải thích một số hành vi và chức năng của nó như là hiện tượng tự phát: Cách chúng ta đi lại, nói chuyện, cách chúng ta chơi cờ, và mọi câu hỏi khác về hành vi. 
+ Nhưng khi nói tới nhận thức, các câu hỏi về hành vi là một trong trong những vấn đề dễ dàng 
+ Khi nói tới vấn đề khó, đó là câu hỏi tại sao mọi hành vi đó lại đi kèm với cảm giác chủ quan? 
+ Và ở đây, mô hình tiêu chuẩn của sự tự phát thậm chí các mô hình chuẩn trong thần kinh học cho đến nay, không có gì nhiều để nói. 
+ Bây giờ, tôi là một người theo chủ nghĩa duy vật 
+ Tôi muốn có một lý thuyết khoa học về nhận thức mà có thể hoạt động. và trong một thời gian dài, tôi cảm thấy vô vọng trong việc tìm kiếm một lý thuyết về nhận thức dựa trên các hiện tượng vật lý mà hoạt động được. 
+ Nhưng cuối cùng tôi có thể kết luận rằng lý thuyết như vậy là không thể vì những lý do mang tính hệ thống 
+ Tôi nghĩ chúng ta đang bế tắc tại điểm này. 
+ Chúng ta đã có một loạt các giải thích tuyệt vời chúng ta quen với nó, Vật lý giải thích Hóa học hóa học giải thích sinh học sinh học giải thích những khía cạnh của tâm lý 
+ Nhưng nhận thức có vẻ như không phù hợp trong bức tranh này 
+ Một mặt, nó là một dữ kiện mà chúng ta nhận thức được 
+ Mặt khác, chúng ta không biết cách để đưa nó vào trong quan điểm khoa học về thế giới của chúng ta 
+ Do đó, tôi nghĩ rằng nhận thức là thứ gì đó dị thường chúng ta rất muốn lồng ghép nó vào trong thế giới quan của chúng ta, nhưng chúng ta vẫn không biết cách. 
+ Đối mặt với một thứ dị thường như thế này, sẽ cần những ý tường cấp tiến và thôi nghĩ rằng chúng ta sẽ cần một hoặc hai ý tướng ban đầu , nghe có vẻ điên khùng trước khi chúng ta hiểu biết một cách khoa học. 
+ Bây giờ, có vài ứng cử viên cho ý tưởng điên rồ này. 
+ Bạn tôi Dan Dennett người có mặt hôm nay, cũng có ý tưởng đó. 
+ Ý kiến điên rồ của anh ta đó là không có gì khó trong vấn đề nhận thức. 
+ Toàn bộ ý tưởng về bộ phim chủ quan trong đầu chúng ta liên quan đến sự ảo tưởng hay sự mơ hồ. 
+ Quả thật,những gì chúng tôi làm là để giải thích chức năng mục tiêu, cách thức hoạt động của não, và sau đó chúng tôi giải thích những thứ cần được giải thích. 
+ Tôi có thể nói rằng, anh ấy thật đáng để khích lệ. 
+ Đó là một loại tư tưởng tiến bộ mà chúng ta cần khám phá nếu bạn muốn có một lý luận thuần túy về lý thuyết não bộ cho ý thức. 
+ Cùng thời điểm này, với tôi cũng như nhiều người khác, quan điểm này còn khá đơn giản để phủ nhận những dữ liệu về sự ý thức một cách thỏa đáng. 
+ Đây là cháu gái tôi, Stella. 
+ Con bé vừa được một tuổi và bắt đầu tập đi. 
+ Nó đi dễ thương theo cách mà các bé một tuổi vẫn làm, kiểu đi loạng choạng như thể cơ thể di chuyển quá nhanh so với chân. 
+ Điều đó thật đáng yêu. 
+ Một trong những việc yêu thích của con bé lúc này là nhìn chằm chằm vào mình trong gương. 
+ Nó rất thích ảnh phản chiếu của mình. 
+ Nó cười khúc khích, kêu ré lên và tự hôn mình trong gương. 
+ Khi nào ta đột nhiên ngừng yêu vẻ bề ngoài của mình? 
+ Bởi vì đúng thật là ta không còn yêu nó nữa. 
+ 10,000 người mỗi tháng tìm trên google, "Tôi trông xấu phải không?" 
+ Đây là Faye, 13 tuổi và sống ở Denver. 
+ Như bất cứ thiếu niên nào, cô bé muốn được yêu mến và hòa đồng. 
+ Và em hơi khiếp sợ, và bối rối vì dù mẹ luôn nói rằng em thật xinh đẹp, mỗi ngày ở trường, đều có ai đó bảo em là xấu xí. 
+ Vì có sự khác biệt giữa điều mẹ nói và điều mà bạn ở trường, hoặc cùng tuổi nói với mình cô bé không biết nên tin ai. 
+ Vài trong số đó có lời lẽ thật độc ác và thiếu suy nghĩ. 
+ Đây là con số trung bình mà một thiếu nữ khỏe mạnh nhận được phản hồi ở một trong những thời điểm dễ bị tổn thương về tinh thần nhất. 
+ Thiếu niên ngày nay hiếm khi cô đơn. 
+ Chúng bị áp lực phải lên mạng và "available" mọi lúc, trò chuyện, nhắn tin, thích, bình luận, chia sẻ, cập nhật -không bao giờ kết thúc. 
+ Chưa bao giờ ta được kết nối quá liên tục, quá nhanh, quá trẻ như vậy. 
+ 1 bà mẹ nói với tôi, nó giống như có 1 tiệc trên giường bọn trẻ mỗi đêm. 
+ Đơn giản là không có sự riêng tư. 
+ Và áp lực xã hội đi cùng với nó thật tàn nhẫn. 
+ Môi trường "luôn online" đang luyện cho bọn trẻ cách tự đánh giá bản thân dựa trên số lượt "thích" và loại "bình luận" mà chúng nhận được. 
+ Không có sự tách biệt giữa cuộc sống trên mạng và đời thực. 
+ Thật khó nói lên khác biệt giữa điều thật và không thật. 
+ Và chúng ta đang tìm cảm hứng ở đâu? 
+ Bạn có thể thấy hình ảnh các cô gái này phủ khắp các kênh tin tức. 
+ Các người mẫu mặc size 0 thống lĩnh sàn diễn thời trang. 
+ Photoshop đang là thông lệ. 
+ Và các xu hướng #thinspiration, #thighgap #bikinibridge và #proana. 
+ Cho những ai chưa biết, #proana nghĩa là ủng hộ chứng biếng ăn. 
+ Các xu hướng này cùng với sự rập khuôn và cụ thể hóa phụ nữ trong văn hóa đại chúng ngày nay. 
+ Không khó để thấy các cô gái lấy chuẩn gì để chống lại mình. 
+ Các chàng trai cũng không miễn nhiễm với điều này. Mong có được cằm chữ V, bụng 6 múi của 
+ các ngôi sao thể thao và nghệ sĩ âm nhạc ăn chơi. 
+ Nhưng vấn đề với tất cả là gì? 
+ Chắc rằng chúng ta muốn con cái mình khôn lớn khỏe mạnh, cân bằng. 
+ Nhưng trong nền văn hóa bị ám ảnh bởi vẻ ngoài, chúng ta đang tập cho con mình dành nhiều thời gian và nỗ lực tinh thần cho vẻ ngoài bằng chi phí của tất cả khía cạnh khác thuộc về bản sắc của chúng. 
+ Thế nên, những thứ như mối quan hệ, phát triển thể chất, học hành, và vân vân bắt đầu bị ảnh hưởng. 
+ 6/10 cô gái chọn cách không làm gì bởi vì họ nghĩ mình không đủ xinh đẹp. 
+ Đó không phải là các hoạt động tầm thường. 
+ Đó là hoạt động cơ bản cho sự phát triển của con người, và là người đóng góp cho xã hội và cho lực lượng lao động. 
+ 31%, gần 1/3 các em thiếu niên rút lui khỏi buổi tranh luận của lớp vì không muốn bị chú ý về vẻ ngoài. 
+ 1/5 không thể hiện gì vào ngày các em không tự tin vào bề ngoài. 
+ Và khi có thi cử, nếu bạn không tự tin về bề ngoài đặc biệt là nếu bạn nghĩ bạn không đủ gầy, bạn sẽ có điểm số thấp hơn điểm trung bình của những bạn cùng lứa mà không quan tâm đến vấn đề mập - ốm. 
+ Điều này là sự thật nhất quán từ Phần Lan, Hoa Kỳ, 
+ và đến Trung Quốc, mặc cho cân nặng thực sự của bạn là bao nhiêu. 
+ Hôm nay tôi sẽ nói với các bạn về 30 năm gần nhất của lịch sử ngành kiến trúc. 
+ Rất nhiều điều để có thể gói gọn trong 18 phút. 
+ Đây là một chủ đề phức tạp, vì vậy chúng ta sẽ chỉ đi sâu vào một nơi phức tạp: New Jersey. 
+ Bởi vì 30 năm trước, tôi đến từ Jersey, lúc tôi 6 tuổi, và tôi đã sống ở đó trong nhà bố mẹ tôi ở một thị trấn gọi là Livingston, và đó là phòng ngủ của tuổi thơ tôi. 
+ Ở góc phòng phòng ngủ của tôi là nhà tắm mà tôi đã chia sẻ với chị gái tôi. 
+ Và ở giữa phòng ngủ của tôi và phòng tắm là một ban công từ đó có thể nhìn thấy toàn cảnh phòng khách gia đình. 
+ Và đó là nơi mà mọi người sẽ tụ tập và xem TV, nên mỗi lần tôi đi từ phòng ngủ đến phòng tắm, mọi người sẽ thấy tôi, và mỗi lần tôi đi tắm và quay trở lại trong chiếc khăn tắm, mọi người sẽ thấy tôi. 
+ Và tôi trông như thế này. 
+ Tôi đã thấy ngượng ngùng, không an toàn, và tôi ghét điều đó. 
+ Tôi ghét phải đi qua đó, tôi ghét cái ban công đó, tôi ghét căn phòng đó, và tôi ghét ngôi nhà đó. 
+ Và đó là kiến trúc. 
+ Cảm giác đó, những cảm xúc mà tôi cảm thấy, đó là sức mạnh của kiến trúc, bởi vì kiến trúc không phải là về toán học và nó không phải là về quy hoạch, nó là về những kết nối cảm xúc, bản năng mà chúng ta cảm nhận từ những nơi mà chúng ta sống. 
+ Và không có gì ngạc nhiên khi chúng ta cảm nhận như vậy, vì theo EPA, người Mỹ dành 90 phần trăm thời gian của họ trong nhà. 
+ Đó là 90 phần trăm thời gian của chúng ta được bao quanh bởi kiến trúc. 
+ Thời gian đó rất nhiều. 
+ Điều đó có nghĩa là kiến trúc đang định hình chúng ta theo những cách mà chúng ta thậm chí không nhận ra. 
+ Điều đó làm cho chúng ta có chút cả tin và rất, rất dễ đoán trước. 
+ Điều đó có nghĩa là khi tôi cho các bạn thấy một toà nhà như thế này, tôi biết những gì bạn nghĩ: Bạn nghĩ về "quyền lực" và "ổn định" và "dân chủ". 
+ Và tôi biết các bạn nghĩ vậy vì nó dựa trên một công trình được tạo ra 2500 năm trước bởi những người Hy Lạp. 
+ Đây là một mẹo. 
+ Đây là một cách kích hoạt mà kiến trúc sư sử dụng để làm bạn tạo ra một kết nối cảm xúc với những hình khối mà từ đó chúng ta xây dựng nên những toà nhà của chúng ta. 
+ Nó là một kết nối cảm xúc dễ đoán, và chúng tôi đã sử dụng mẹo này trong một thời gian dài. 
+ Chúng tôi đã sử dụng nó [200] năm trước để xây dựng ngân hàng. 
+ Chúng tôi đã sử dụng nó trong thế kỷ 19 để xây dựng bảo tàng nghệ thuật. 
+ Và ở thế kỷ 20 ở Mỹ, chúng tôi dùng nó để xây dựng những căn nhà. 
+ Và hãy nhìn vào những người lính nhỏ chắc chắn, ổn định này đối mặt với đại dương và chống chọi với thời tiết khắc nghiệt. 
+ Điều này thực sự, thực sự hữu ích, vì việc xây dựng những công trình là việc đáng sợ. 
+ Nó đắt đỏ, phải mất một thời gian dài, và nó rất phức tạp. 
+ Và những người xây dựng mọi thứ -- các nhà phát triển và các chính phủ -- họ vốn dĩ lo sợ sự đổi mới, và họ chỉ muốn sử dụng những hình thức họ biết các bạn sẽ phản hồi. 
+ Đó là lý do rốt cục chúng ta có những toà nhà như thế này. 
+ Đây là một toà nhà đẹp. 
+ Nhưng nó không có gì liên quan tới những gì mà một thư viện có ngày nay. 
+ Cùng năm đó, năm 2004, ở phía kia của đất nước, một thư viện khác đã được hoàn thành, và nó trông như thế này. 
+ Nó ở Seattle. 
+ Thư viện này nói về cách chúng ta dùng các phương tiện trong một thời đại số. 
+ Nó là một tiện nghi công cộng kiểu mới cho thành phố, một nơi để tụ tập và đọc và chia sẻ. 
+ Vậy có lý nào mà trong cùng một năm, cùng một quốc gia, hai toà nhà, đều được gọi là thư viện, nhìn hoàn toàn khác nhau như vậy? 
+ Và câu trả lời là kiến trúc hoạt động dựa trên nguyên tắc của một quả lắc. 
+ Một bên là sự đổi mới, và kiến trúc sư đang liên tục thúc đẩy, đẩy mạnh những công nghệ mới, những hình thể mới, những giải pháp mới theo cách chúng ta đang sống ngày nay. 
+ Chúng tôi mặc toàn đồ đen, chúng tôi bị áp lực, các bạn nghĩ chúng tôi thật đáng ngưỡng mộ, nhưng thực ra chúng tôi đang chết yểu từ bên trong vì chúng tôi không hề có lựa chọn khác. 
+ Chúng tôi buộc phải đi theo hướng đối diện và nối kết lại với những biểu tượng mà chúng tôi biết các bạn yêu thích. 
+ Thế là chúng tôi làm vậy, và các bạn hạnh phúc, chúng tôi cảm thấy đã bán rẻ bản thân, nên chúng tôi lại bắt đầu thử nghiệm và đẩy con lắc trở lại, trở lại và tiến tới, trở lại và tiến tới như thế chúng ta đã trải qua 300 năm, và tất nhiên cho cả 30 năm gần nhất. 
+ Ok, 30 năm trước chúng ta đã bước qua thập niên 70 
+ Kiến trúc sư đã khá bận rộn trong việc thử nghiệm với một thứ được gọi là Chủ nghĩa Thô mộc. 
+ Đó là về bê tông. 
+ Những cửa sổ nhỏ, quy mô phi nhân bản. 
+ Điều này thực sự khó khăn. 
+ Rồi khi chúng ta đến gần hơn với những năm 80, chúng ta bắt đầu kết nối lại những biểu tượng ấy. 
+ Chúng ta đẩy con lắc trở lại theo hướng kia. 
+ Chúng tôi chọn những hình mẫu mà chúng tôi biết bạn thích và chúng tôi cập nhật chúng. 
+ Chúng tôi thêm đèn nê-ông và chúng tôi thêm phấn màu và chúng tôi sử dụng vật liệu mới. 
+ Và các bạn thích nó. 
+ Và chúng tôi không thể cho các bạn đủ những điều đó 
+ Chúng tôi lấy hình mẫu tủ gỗ kiểu cổ và chúng tôi biến chúng trở thành những toà nhà chọc trời, và những toà nhà chọc trời có thể có dạng lâu đài trung cổ toàn bằng kính. 
+ Những khuôn dạng trở nên to lớn, những khuôn dạng được nhấn mạnh và đầy màu sắc. 
+ Những chú lùn trở thành cột chống. 
+ Điều này thật điên rồ. 
+ Nhưng đó là những năm 80, nó đã rất tuyệt. 
+ Đây là thứ thuộc về kiểu hậu hiện đại. 
+ Đây là thứ thuộc về biểu tượng. 
+ Chúng rất dễ dàng, chúng rẻ, bởi vì thay vì làm nên nơi ở, chúng tôi đang tạo ra những kí ức về nơi ở. 
+ Bởi vì tôi biết, và tôi biết tất cả các bạn biết, đây không phải là vùng Tuscany. 
+ Đây là Ohio. 
+ Trong những năm cuối thập niên 80 và đầu thập niên 90, và chúng tôi bắt đầu thử nghiệm với một thứ gọi là Chủ nghĩa giải toả kết cấu . 
+ Chúng tôi vứt bỏ những biểu tượng lịch sử, chúng tôi dựa vào những kĩ thuật thiết kế mới với sự trợ giúp của máy tính, và chúng tôi cho ra đời những sự kết hợp mới, những khuôn hình trộn lẫn vào những khuôn hình. 
+ Đây là những thứ hàn lâm và hóc búa, nó cực kỳ không phổ biến, chúng tôi hoàn toàn làm các bạn thấy lạ lẫm. 
+ Về cơ bản, con lắc lại quay trở lại theo hướng kia. 
+ Và sau đó, điều kỳ diệu đã xảy ra. 
+ Vào năm 1997, toà nhà này khai trương. 
+ Đây là Guggenheim Bilbao, thiết kế bởi Frank Gehry. 
+ Và toà nhà này đã cơ bản thay đổi mối quan hệ của thế giới với kiến trúc. 
+ Paul Goldberger nói rằng công trình ở Bilbao này là một trong những khoảnh khắc hiếm hoi khi các nhà phê bình, các học giả, và cộng đồng hoàn toàn đồng tình về một toà nhà. 
