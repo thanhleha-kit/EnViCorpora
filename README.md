@@ -11,7 +11,7 @@ English-Vietnamese News Translation Shared Task. It includes:
 *  `iwslt15`: parallel corpus extracted from TED talks, served for the [IWSLT15 evaluation campaign](https://workshop2015.iwslt.org/). It also includes development, test and official test sets used for the IWSLT15 evaluation campaign. NOTE: `ted-like` corpus contains all the data in this `iwslt15` corpus, including development and test sets. So, the systems trained on data containing `ted-like` might overfit and perform unfairly on IWSLT15 English-Vietnamese benchmarks (e.g. [paperwithcode](https://paperswithcode.com/sota/machine-translation-on-iwslt2015-english-1))
 *  `mono-vi`: a monolingual corpus extracted and filtered from Vietnamese popular newspapers. It should be used for Back-Translation approaches.
 
-
+## Statistics of Training Data
 Here are the statistics of those data:
 
 | Dataset           | Number of sentences | Notes                                   |
@@ -27,6 +27,8 @@ Here are the statistics of those data:
 | **Total**         | 4,145,592           | excluding iwslt15 and mono-vi           |
 | **Total Good**    | 640,316             | excluding iwslt15, mono-vi and openSub  |
 
+
+## Statistics of Development/Test Data
 At the end of the VLSP 2020 evaluation campaign, the task organizers published the official test set `VLSP20-official`. Here are the statistics of those validations and test sets:
 
 | Evaluation Campaign        | Dataset                  | Number of sentences | Notes                                   |
@@ -40,6 +42,9 @@ At the end of the VLSP 2020 evaluation campaign, the task organizers published t
 
 
 Among those corpora, the `openSub` corpus is the largest but the most noisy one. We trained a strong NMT system on `Total` data (including `openSub`) and the same sytem on `Total Good` (without `openSub`) and the latter outperforms the former on VLSP 2020 test sets.
+
+
+## Cite
 
 Please cite [our paper](https://www.aclweb.org/anthology/2020.vlsp-1.18.pdf) if you use the data in your research:
 
